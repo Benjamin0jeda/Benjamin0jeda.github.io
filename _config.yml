@@ -4,44 +4,19 @@ title:
       Grupo 12 
       Clustering de usuarios de MyAnimeList
 
-email: benjamn.ojeda@uc.cl
-description: >
-  En este proyecto, nos embarcamos en un viaje de exploración a 
-  través de las comunidades de usuarios en MyAnimeList, con el objetivo de
-  descubrir patrones y configuraciones distintivas. Nos preguntamos cuáles 
-  grupos de usuarios podrían surgir de sus revisiones y críticas, centrándonos
-  en los animes visualizados y los tags asociados a ellos. La pregunta fundamental
-  es si estos grupos poseen características lo suficientemente distintivas como 
-  para permitir recomendaciones y predicciones significativas en otras métricas relevantes.
-  A medida que profundizamos en la investigación, nos sumergimos en la intrigante pregunta
-  sobre los animes "clásicos". ¿Existen patrones y tendencias consistentes en las variables
-  asociadas a estos animes de excepcional recepción? La intención es entender si estos 
-  patrones coinciden con las expectativas convencionales o presentan sorpresas reveladoras.
-  Otra línea de investigación nos lleva a explorar la posible correlación entre la cantidad
-  de animes visualizados y la "comunidad" a la que pertenece un usuario. Esta indagación
-  podría extenderse a otras variables clave del proyecto, arrojando luz sobre las relaciones
-  que existen entre las preferencias individuales y las dinámicas de grupo.
-  A medida que avanzamos en nuestro análisis, surgen preguntas adicionales intrigantes. 
-  La distribución de usuarios de anime sigue el principio de Pareto, destacando la concentración
-  en un grupo selecto? En el contexto de Anime-Planet, buscamos entender las conexiones entre los
-  tags más fuertemente correlacionados y aquellos que muestran la menor correlación. Este enfoque
-  promete revelar vínculos y patrones interesantes entre las etiquetas que definen las preferencias
-  de los usuarios en esta plataforma.
-  
-  En resumen, nuestro proyecto se sumerge en el vasto universo de MyAnimeList y Anime-Planet,
+description: 
+  Nuestro proyecto se sumerge en el vasto universo de MyAnimeList y Anime-Planet,
   desentrañando las complejidades de las comunidades de amantes del anime para revelar insights
   valiosos sobre sus hábitos, preferencias y dinámicas.
 
 lang: es-MX
 
-baseurl: "/proyecto_cs_datos" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://benjamin0jeda.github.io # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/Benjamin0jeda/benjamin0jeda.github.io
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
-bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+bootwatch: slate # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
 # Build settings
 markdown: kramdown
@@ -60,7 +35,7 @@ exclude:
   - .gitignore
   - README.md
   - vendor
-timezone: Europe/Berlin
+timezone: America/Santiago
 defaults:
 - scope:
     path: _posts

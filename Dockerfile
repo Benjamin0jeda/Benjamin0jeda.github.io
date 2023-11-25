@@ -12,15 +12,15 @@ ADD Gemfile Gemfile.lock ./
 RUN bundle install
 
 ADD . .
-ARG JEKYLL_BASEURL
-RUN bundle exec jekyll build --baseurl $JEKYLL_BASEURL
+ARG benjamin0jeda.github.io
+RUN bundle exec jekyll build --baseurl $benjamin0jeda.github.io
 
 ####################################
 
 FROM nginx:alpine
 
-ARG JEKYLL_BASEURL
-COPY --from=builder /jekyll/_site /usr/share/nginx/html/$JEKYLL_BASEURL
+ARG benjamin0jeda.github.io
+COPY --from=builder /jekyll/_site /usr/share/nginx/html/$benjamin0jeda.github.io
 COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80
