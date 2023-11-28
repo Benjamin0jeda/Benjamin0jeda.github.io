@@ -13,7 +13,7 @@ En nuestro caso, la ley de Pareto diría que el 20% de los usuarios hace el 80% 
 
 Simplemente calculando en **users_df** la cantidad de reviews hechas por usuario, tuvimos el siguiente resultado.
 
-![Reviews por usuario](../img/reviews_por_usuario.png/)
+![Reviews por usuario](/benjamin0jeda.github.io/assets/img/reviews_por_usuario.png/)
 
 Los resultados dicen:
 * El 20% de los usuarios tiene 387989 calificaciones, lo cual es un 69.53% del total.
@@ -24,7 +24,7 @@ Por tanto, podemos decir que la ley de Pareto se cumple en este caso.
 
 Podemos probar a hacer lo mismo pero desde la perspectiva de los mismos animes.
 
-![Reviews por anime](../img/reviews_por_anime.png/)
+![Reviews por anime](/benjamin0jeda.github.io/assets/img/reviews_por_anime.png/)
 
 Los resultados dicen:
 * El 20% de los animes tiene 479727 calificaciones, lo cual es un 85.97% del total.
@@ -37,7 +37,7 @@ Por tanto, podemos decir que la ley de Pareto se cumple en este caso.
 
 Lo segundo que pudimos hacer fue encontrar los distintos animes de culto, encontramos estadísticamente este conjunto de animes, los cuales tienen la característica de ser antiguos pero populares.
 
-![Animes destacados](../img/animes_destacados.png/)
+![Animes destacados](/benjamin0jeda.github.io/assets/img/animes_destacados.png/)
 
 Estos fueron encontrados con la información dentro de **detalles_anime**.
 

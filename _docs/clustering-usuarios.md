@@ -11,7 +11,7 @@ Los resultados no son tan conclusivos, pero fuimos capaces de concluir que no so
 
 Para poder hacer esto, tuvimos que hacer una reducción de dimensionalidad junto con un algoritmo de clustering; en este caso usamos PCA y KMeans respectivamente.
 
-![Codo PCA](../img/codo_pca.png)
+![Codo PCA](/benjamin0jeda.github.io/assets/img/codo_pca.png)
 
 
 
@@ -28,7 +28,7 @@ Para poder hacer esto, tuvimos que hacer una reducción de dimensionalidad junto
 
 
 
-![Codo KMeans](../img/codo_kmeans.png)
+![Codo KMeans](/benjamin0jeda.github.io/assets/img/codo_kmeans.png)
 
 Por el método del codo pudimos concluir que lo óptimo fue usar 7 componentes principales y aproximadamente 20 grupos; aunque en retrospectiva un poco menos pudo haber sido un poco más eficiente.
 
@@ -62,7 +62,7 @@ Nótese que las imágenes tienen tal resolución que si se abren en una pestaña
 
 
 #### Nivel 1
-![PCA Nivel 1](../img/PCA Nivel 1.png)
+![PCA Nivel 1](/benjamin0jeda.github.io/assets/img/PCA Nivel 1.png)
 
 
 
@@ -82,7 +82,7 @@ Nótese que las imágenes tienen tal resolución que si se abren en una pestaña
 
 
 #### Nivel 2
-![PCA Nivel 2](../img/PCA Nivel 2.png)
+![PCA Nivel 2](/benjamin0jeda.github.io/assets/img/PCA Nivel 2.png)
 
 
 
@@ -96,7 +96,7 @@ Nótese que las imágenes tienen tal resolución que si se abren en una pestaña
 
 
 #### Nivel 3
-![PCA Nivel 3](../img/PCA Nivel 3.png)
+![PCA Nivel 3](/benjamin0jeda.github.io/assets/img/PCA Nivel 3.png)
 
 
 
@@ -110,7 +110,7 @@ Nótese que las imágenes tienen tal resolución que si se abren en una pestaña
 
 
 #### Nivel 4
-![PCA Nivel 4](../img/PCA Nivel 4.png)
+![PCA Nivel 4](/benjamin0jeda.github.io/assets/img/PCA Nivel 4.png)
 
 
 
@@ -124,7 +124,7 @@ Nótese que las imágenes tienen tal resolución que si se abren en una pestaña
 
 
 También podemos ver cuánto anime ven en distintas métricas los distintos grupos, con unos boxplot.
-![Boxplot Grupos](../img/boxplot_grupos.png)
+![Boxplot Grupos](/benjamin0jeda.github.io/assets/img/boxplot_grupos.png)
 
 
 
@@ -140,7 +140,7 @@ También podemos ver cuánto anime ven en distintas métricas los distintos grup
 
 
 Y por otra parte, podemos ver cuántos usuarios tiene cada grupo.
-![Barplot Grupos](../img/barplot_grupos.png)
+![Barplot Grupos](/benjamin0jeda.github.io/assets/img/barplot_grupos.png)
 
 
 
