@@ -47,4 +47,5 @@ collections:
   docs:
     permalink: /:collection/:path/
     output: true
+remote_theme: aksakalli/jekyll-doc-theme@gh-pages
 
