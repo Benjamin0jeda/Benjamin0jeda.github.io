@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
 
 gem "jekyll", "3.9.3"
 ruby '2.7.4'
