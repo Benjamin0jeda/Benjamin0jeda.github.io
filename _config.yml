@@ -19,11 +19,11 @@ bootwatch: slate # cerulean cosmo custom cyborg darkly flatly journal lumen read
 markdown: kramdown
 highlighter: rouge
 # Plugins (previously gems:)
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# plugins:
+#   - jekyll-feed
+#   - jekyll-redirect-from
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
 
 exclude:
   - Gemfile
@@ -47,5 +47,4 @@ collections:
   docs:
     permalink: /:collection/:path/
     output: true
-remote_theme: aksakalli/jekyll-doc-theme@gh-pages
 

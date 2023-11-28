@@ -1,19 +1,19 @@
 source "https://rubygems.org"
+ruby RUBY_VERSION
 
-ruby '2.7.4'
+gem "jekyll", "4.0"
 
 # to use GitHub Pages
-bundle update github-pages
-gem "github-pages", group: :jekyll_plugins
-gem 'webrick'
-gem 'thin'
+# gem "github-pages", group: :jekyll_plugins
+# gem 'webrick'
+# gem 'thin'
 
 # If you have any plugins, put them here!
 # group :jekyll_plugins do
-# gem "jekyll-feed"
-# gem "jekyll-sitemap"
-# gem "jekyll-redirect-from"
-# gem "jekyll-seo-tag"
+#    gem "jekyll-feed"
+#    gem "jekyll-sitemap"
+#    gem "jekyll-redirect-from"
+#    gem "jekyll-seo-tag"
 # end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
