@@ -1,11 +1,18 @@
-- title: Getting Started
+- title: Procesamiento de información
   docs:
-  - home
-  - themes
-  - customization
-
-- title: Examples
+  - procesamiento-de-informacion
+- title: Análisis de información y resultados
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - analisis-de-informacion-y-resultados
+- title: Clustering de Usuarios
+  docs:
+  - clustering-usuarios
+- title: Retroalimentación, retrospectiva, problemáticas, y posibles extensiones.
+  docs:
+  - retroalimentacion
+- title: Fuente de Datos
+  docs:
+  - fuentes-datos
+- title: Repositorios
+  docs:
+  - repositorio

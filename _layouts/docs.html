@@ -14,14 +14,19 @@ layout: default
             <div style="clear:both;">
               <p class="text-center">
                 <br />
-                <a target="_blank" href="{{site.git_edit_address}}/{{ page.path }}" class="btn btn-default" role="button">
-                  <i class="fa fa-pencil fa-lg"></i> Improve this page
                 </a>
               </p>
             </div>
             <hr>
             {% include section_nav.html %}
         </div>
-
-    </div>
+        <div id="comments">
+          <h2>Sección de discusión</h2>
+          <script src="https://utteranc.es/client.js"
+                  repo="benjamin0jeda/benjamin0jeda.github.io"
+                  issue-term="pathname"
+                  theme="github-light"
+                  crossorigin="anonymous"
+                  async>
+          </script>
 </div>

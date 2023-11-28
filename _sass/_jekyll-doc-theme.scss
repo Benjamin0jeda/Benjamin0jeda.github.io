@@ -2,6 +2,7 @@
 html {
     position: relative;
     min-height: 100%;
+    background-color: #0000;
   }
   body {
     padding-top: $navbar-height + $navbar-margin-bottom;
@@ -10,19 +11,22 @@ html {
   
   .navbar-brand{
     img{
+      background-color: #0000;
       margin: -$navbar-padding-vertical 0;
       height: $navbar-height;
       padding: 10px 0;
     }
   }
-  
-  
+
+
   .header-container {
-    background-color: black;
-    background: url('../img/bg.jpg') no-repeat 50% 0;
+    background-color: #0000;
+    background: url('../img/fondo.jpg') no-repeat 50% 0;
+    text-shadow: 2px 2px 4px #000000;
     color: #fff;
   
     h1 {
+      text-shadow: 2px 2px 4px #000000;
       color: #fff;
     }
     // background-attachment: fixed;
@@ -30,10 +34,17 @@ html {
     background-position: center 36%;
     margin-top: -37px;
   }
+  .texto-justificado {
+    text-align: justify;
+  }
+  
   .navbar-container {
+    background-color: #0000;
     font-size: 16px;
   }
+
   .page-content {
+    background-color: #0000;  
     padding-bottom: 20px;
   }
   .footer {
@@ -41,8 +52,8 @@ html {
     bottom: 0;
     width: 100%;    
     padding-top: 10px;
-    background-color: $gray-lighter;
-    color: $gray-dark;
+    background-color: #0000;  
+    color: #fff;
   }
   
   .post-list-container {
@@ -56,6 +67,7 @@ html {
     margin-top: -75px;
     height: 75px;
     visibility: hidden;
+    background-color: #0000;
   }
   .navbar-form .has-feedback .form-control-feedback{
     top:10px

@@ -4,51 +4,64 @@ layout: default
 
 <div class="header-container jumbotron">
     <div class="container">
-        <h1>Jekyll Template for Project Websites</h1>
-        <p>Simple and modern design for publishing blog posts, documentation and many more things about your project.
-          You can now clone and start to create a website for your project like this one.</p>
-        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | relative_url }}" role="button">Learn more</a></p>
+        <h1>Proyecto Ciencia de datos: Grupo 12, Clustering de Usuarios en MyAnimeList</h1>
+        <h2>Motivacion</h2>
+        <p class="texto-justificado">
+            A algunos podria parecerle extraña la idea de hacer un analisis de este tipo,
+            pero pensando que los adolescentes y jovenes adultos son su principal consumidor,
+            y que Chile es el quinto pais que mas consume Anime, (Ferjan, 2023), Hacer un
+            proyecto en torno a algo que nos interesa a nosotros y al resto del pais resulta
+            atractivo. Otra de las razones es el potencial de la Ciencia de Datos en este entorno,
+            no deberia ser un secreto que uno de los grandes mercados de la Ciencia de Datos son
+            los algoritmos de recomendacion a usuarios, usados generalmente en sitios de peliculas
+            como Netflix, o en los distintos algoritmos de publicidad.
+            Esto es relevante en el anime pues uno de los sitios que los usuarios usan en este
+            grupo de interes es MyAnimeList, el cual cuenta con aproximadamente 17 millones de
+            usuarios, esto representa una oportunidad, pues el mismo sitio provee una API con la
+            cual acceder a esta informacion, lo cual implica que nosotros mismos seremos capaces
+            de acceder a ella.
+            Pero no simplemente vamos a tratar de hacer un algoritmo de recomendacion, si no mas
+            bien, vamos a buscar distintos grupos dentro de este sitio, con lo cual queremos ver
+            si estos usuarios se encuentran polarizados en sus gustos.
+        </p>
     </div>
 </div>
 
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <h2 class="header-light regular-pad">What is Jekyll?</h2>
-              <p class="lead">Jekyll is a simple, blog-aware, static site generator. It takes a template
-              directory containing raw text files in various formats, runs it through
-              a converter (like <a href="https://daringfireball.net/projects/markdown/">Markdown</a>)
-              and our <a href="https://github.com/Shopify/liquid/wiki">Liquid</a> renderer, and
-              spits out a complete, ready-to-publish static website suitable
-              for serving with your favorite web server. Jekyll also happens to be the engine
-              behind <a href="https://pages.github.com">GitHub Pages</a>, which means you can use Jekyll
-              to host your project’s page, blog, or website from GitHub’s servers <strong>for
-              free</strong>.</p>
+            <h2 class="header-light regular-pad">¿Qué información fue recolectada?</h2>
+              <p class="lead"></strong>
+                <p class="texto-justificado">
+                El proyecto lo desarollamos con Python en varios
+                Jupyter Notebook, con varias librerias especializadas en Ciencia de Datos,
+                como Pandas, Numpy, Matplotlib, sklearn, etc. Y otras librerias para manejar
+                el webscraping y el uso de API's, como requests y BeautifulSoup.
+                Para la recoleccion de informacion usamos requests y BeautifulSoup, debido
+                a la cantidad de tiempo que se toma recopilar la informacion lo hicimos por
+                20 partes cada serie, con un total de 5 series, el tiempo de procesamiento
+                fue probablemente mas de 100 horas en total considerando todas las series.
+                La informacion que recolectamos fue la siguiente:
+                Las listas de calificaciones de 20 mil usuarios, de las cuales aproximadamente
+                7000 tenian al menos una calificacion a un anime que hayan completado. Esto fue
+                hecho en 2 series, una para tener los usuarios y una segunda para obtener sus
+                calificaciones.
+                Detalles de los animes calificados por los usuarios en MyAnimeList, como su id,
+                año de lanzamiento, cantidad de usuarios por ese anime, la calificiacion promedio,
+                etc.
+                La informacion de los Animes presentes en Animeplanet, otro sitio que recopila
+                Informacion de distintos animes, en este caso sacamos informacion de este sitio
+                debido a la mejor calidad de sus tags, tambien conocidas como generos, las cuales
+                tenian una mayor variedad en cuanto a tipo, clasificando asi mejor los distintos
+                animes.
+                Esta tambien fue hecha en 2 series, una para encontrar todos los animes de
+                AnimePlanet y una segunda para obtener las tags.
+                Una vez que recopilamos toda la informacion la recopilamos en archivos unicos
+                para su posterior procesamiento.</p>
         </div>
-        <div class="col-md-6 text-center">
-            <img src="{{ "/assets/img/jekyll-dark.png" | relative_url }}" alt="Jekyll logo" class="img-responsive">
-        </div>
-    </div>
-    <hr>
-    <div class="row">
-        <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Easy to install and publish</h3>
-            <p>Get started by cloning source into GitHub account of your project. Thanks to <a href="https://pages.github.com">GitHub Pages</a>,
-              it will be automatically compiled and published under your account's (or organisation's) subdomain under <code>github.io</code>.
-            </p>
-        </div>
-        <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Modular Styling and Templating</h3>
-            <p>This template uses <a href="https://github.com/twbs/bootstrap-sass">bootstrap-sass</a> along with <a href="https://bootswatch.com/">Bootwatch themes</a>.
-            You can change the theme or write your custom one by overwriting bootstrap sass variables for a different color set, font options, etc.</p>
-        </div>
-        <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Git-based source control</h3>
-            <p>Leverage from Git version control system by
-              maintaining your documentation along with the source code; publish the page when you merge to the master branch.</p>
-        </div>
+        <div class="col-md-6 text-center"style="margin-top: 40  px;">
+            <img src="{{ "/assets/img/myanimelist_logo.png" | relative_url }}" alt="MyAnimeList logo" class="img-responsive" style="margin-top: 50px;">
+            <img src="{{ "/assets/img/anime-planet-icon.webp" | relative_url }}" alt="AnimePlanet logo" class="img-responsive" style="margin-left: 150px;">
+        </div>        
     </div>
 </div>
